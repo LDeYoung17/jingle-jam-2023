@@ -1,4 +1,4 @@
-import Header from "../Header/Header";
+import Introduction from "../Introduction/Introduction";
 import Footer from "../Footer/Footer";
 import Main from "../Main/Main";
 import "./App.css";
@@ -6,7 +6,7 @@ import "./App.css";
 const App = () => {
   return (
     <div className="app">
-      <Header />
+      <Introduction />
       <Main />
       <Footer />
     </div>
