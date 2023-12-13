@@ -1,3 +1,39 @@
 .introduction {
   font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.introduction__paragraph {
+  max-width: 550px;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 20px 0;
+}
+
+.introduction__header {
+  font-size: 40px;
+  max-width: 400px;
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .introduction {
+    padding: 100px 25px;
+  }
+  .introduction__paragraph {
+    font-size: 15px;
+    line-height: 18px;
+    max-width: 400px;
+  }
+  .introduction__header {
+    max-width: 300px;
+    font-size: 32px;
+    line-height: 38px;
+  }
 }
