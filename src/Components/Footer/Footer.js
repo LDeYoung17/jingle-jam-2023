@@ -95,7 +95,10 @@ const Footer = () => {
         </li>
       </ul>
       <p className="footer__copyright">
-        Copyright 2023 © - All Rights Reserved by The Coding Elves
+        Copyright 2023 © -
+        <span className="footer__span-newline">
+          All Rights Reserved by The Coding Elves
+        </span>
       </p>
     </div>
   );

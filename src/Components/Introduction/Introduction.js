@@ -2,8 +2,10 @@ import "./Introduction.css";
 
 const Introduction = () => {
   return (
-    <div>
-      <div>Introduction</div>
+    <div className="introduction">
+      <h1 className="introduction__header"></h1>
+      <p className="introduction__paragraph"></p>
+      <button className="intruduction__button"></button>
     </div>
   );
 };
