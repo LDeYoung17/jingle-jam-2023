@@ -1,12 +1,29 @@
+@keyframes pulse {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
 .introduction {
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: 100vh;
   text-align: center;
   padding: 100px 0;
+}
+
+.introduction__title {
+  font-size: 60px;
+  margin: 0;
 }
 
 .introduction__paragraph {
@@ -17,9 +34,39 @@
 }
 
 .introduction__header {
-  font-size: 40px;
-  max-width: 400px;
+  font-size: 30px;
+  max-width: 800px;
   margin: 0;
+  font-weight: 700;
+}
+
+.introduction__button {
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  border: none;
+  background-color: rgba(189, 54, 52);
+  color: white;
+  text-decoration: none;
+  box-shadow: 1px 0px 7px 2px rgba(0, 0, 0, 0.44);
+  animation: pulse 2s infinite;
+}
+
+.introduction__elf {
+  height: 400px;
+  width: fit-content;
+  position: absolute;
+  bottom: -90px;
+  left: 0;
+  transform: rotate(40deg);
+}
+
+.introduction__lights {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  top: 0;
 }
 
 @media screen and (max-width: 600px) {

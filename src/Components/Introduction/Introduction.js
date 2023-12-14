@@ -1,9 +1,27 @@
 import "./Introduction.css";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import Typewriter from "typewriter-effect";
+import elf1 from "../../Images/elf 1.png";
+import lights from "../../Images/lights.png";
 
 const Introduction = () => {
   return (
     <div className="introduction">
-      <h1 className="introduction__header">Hello darkness my old friends</h1>
+      <h1 className="introduction__title">Welcome</h1>
+      <div className="introduction__header">
+        <Typewriter
+          options={{
+            autoStart: true,
+            loop: true,
+          }}
+          onInit={(typewriter) => {
+            typewriter
+              .typeString("Santas optimized delivery routes")
+              .start()
+              .pauseFor(3000);
+          }}
+        />
+      </div>
       <p className="introduction__paragraph">
         I've come to talk with you again Because a vision softly creeping Left
         its seeds while I was sleeping And the vision that was planted in my
@@ -13,7 +31,15 @@ const Introduction = () => {
         by the flash of a neon light That split the night And touched the sound
         of silence
       </p>
-      <button className="intruduction__button">Click Me For Fun</button>
+      <Link to="/Main" className="introduction__button">
+        Click Me For Fun
+      </Link>
+      {/* <img src={elf1} alt="elf" className="introduction__elf"></img> */}
+      <img
+        src={lights}
+        alt="christmas lights"
+        className="introduction__lights"
+      ></img>
     </div>
   );
 };
