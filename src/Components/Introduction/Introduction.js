@@ -3,7 +3,7 @@ import "./Introduction.css";
 const Introduction = () => {
   return (
     <div className="introduction">
-      <h1 className="introduction__header">Hello darkness my old friend</h1>
+      <h1 className="introduction__header">Hello darkness my old friends</h1>
       <p className="introduction__paragraph">
         I've come to talk with you again Because a vision softly creeping Left
         its seeds while I was sleeping And the vision that was planted in my
