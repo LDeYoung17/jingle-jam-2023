@@ -3,6 +3,7 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import Typewriter from "typewriter-effect";
 import elf1 from "../../Images/elf 1.png";
 import lights from "../../Images/lights.png";
+import bell from "../../Images/Christmas jingle bell.png";
 
 const Introduction = () => {
   return (
@@ -16,7 +17,7 @@ const Introduction = () => {
           }}
           onInit={(typewriter) => {
             typewriter
-              .typeString("Santas optimized delivery routes")
+              .typeString(`Santa's optimized delivery routes`)
               .start()
               .pauseFor(3000);
           }}
@@ -34,12 +35,17 @@ const Introduction = () => {
       <Link to="/Main" className="introduction__button">
         Click Me For Fun
       </Link>
-      {/* <img src={elf1} alt="elf" className="introduction__elf"></img> */}
+      <p className="introduction__copyright">
+        Copyright 2023 © - All Rights Reserved by The Coding Elves
+      </p>
+
       <img
         src={lights}
         alt="christmas lights"
         className="introduction__lights"
-      ></img>
+      />
+      <img src={bell} alt="christmas bell" className="introduction__bell"></img>
+      <img src={bell} alt="christmas bell" className="introduction__bell"></img>
     </div>
   );
 };
