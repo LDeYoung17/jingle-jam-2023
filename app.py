@@ -8,6 +8,7 @@ import random
 import numpy as np
 import plotly.express as px
 from dash import Dash, dcc, html, Input, Output
+import json
 
 df_final_cities = pd.read_csv('/https://raw.githubusercontent.com/LDeYoung17/jingle-jam-2023/ds-work-branch/notebooks/final_cities.csv', encoding = "iso-8859-1")
 
@@ -135,5 +136,6 @@ def display_choropleth(candidate):
 
 
 app.run_server(debug=True)
+
 
 

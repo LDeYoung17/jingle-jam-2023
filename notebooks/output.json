@@ -1,0 +1,42 @@
+{
+    "data_config": {
+        "csv_file_path": "/Users/admin/Desktop/GitHub/new_repos/jingle-jam-2023/notebooks/final_cities.csv",
+        "number_list": [
+            1,
+            8,
+            5,
+            3,
+            6,
+            0,
+            4,
+            2,
+            7
+        ],
+        "population_size": 10,
+        "num_generations": 250,
+        "mutation_rate": 0.1
+    },
+    "best_route": {
+        "route": [
+            7,
+            0,
+            8,
+            1,
+            5,
+            2,
+            4,
+            3,
+            6
+        ],
+        "fitness": 17421.24144777315
+    },
+    "dash_app_layout": {
+        "title": "Polotical candidate voting pool analysis",
+        "radio_items_options": [
+            "Joly",
+            "Coderre",
+            "Bergeron"
+        ],
+        "default_value": "Coderre"
+    }
+}
