@@ -1,0 +1,100 @@
+{
+    "data_config": {
+        "csv_file_path": "/Users/admin/Desktop/GitHub/new_repos/jingle-jam-2023/notebooks/final_cities.csv",
+        "number_list": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "population_size": 10,
+        "num_generations": 250,
+        "mutation_rate": 0.1
+    },
+    "best_route": {
+        "route": [
+            6,
+            4,
+            3,
+            7,
+            2,
+            0,
+            1,
+            5,
+            8
+        ],
+        "fitness": 18142.10696977282,
+        "baseline_model": 34369.700652266736,
+        "baseline_route": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ]
+    },
+    "optimized_route_data": [
+        {
+            "city": "Gilbert",
+            "latitude": 33.3528,
+            "longitude": -111.789
+        },
+        {
+            "city": "Cleveland",
+            "latitude": 41.4993,
+            "longitude": -81.6944
+        },
+        {
+            "city": "Lincoln",
+            "latitude": 40.8136,
+            "longitude": -96.7026
+        },
+        {
+            "city": "Corpus Christi",
+            "latitude": 27.8006,
+            "longitude": -97.3964
+        },
+        {
+            "city": "Hialeah",
+            "latitude": 25.8576,
+            "longitude": -80.2781
+        },
+        {
+            "city": "Athens",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        {
+            "city": "Cairo",
+            "latitude": 30.0444,
+            "longitude": 31.2357
+        },
+        {
+            "city": "Bangkok",
+            "latitude": 13.7563,
+            "longitude": 100.5018
+        },
+        {
+            "city": "Osaka",
+            "latitude": 34.6937,
+            "longitude": 135.5022
+        }
+    ],
+    "dash_app_layout": {
+        "title": "Mapping Deliveries Around the World",
+        "radio_items_options": [
+            "Route Map",
+            "Scatter"
+        ],
+        "default_value": "Route Map"
+    }
+}
