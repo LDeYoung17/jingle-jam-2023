@@ -41,9 +41,9 @@ There are no plans for updates at this time.
 
 <h2>Portfolio Link</h2>
 
-[https://ldeyoung17.github.io/
+https://ldeyoung17.github.io/
 
-This is my portfolio where all my projects, including this one, can be found, as well as more information about my experience as a Data Scientist and Software Engineer.](https://ldeyoung17.github.io/
+This is my portfolio where all my projects, including this one, can be found, as well as more information about my experience as a Data Scientist and Software Engineer.
 
 https://sites.google.com/view/leahdeyoungparalegal/home
 
